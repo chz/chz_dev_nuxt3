@@ -2554,6 +2554,11 @@ graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
+gsap@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.8.0.tgz#a404dd6ebbaabc92605539aea9d98e3098688064"
+  integrity sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g==
+
 gzip-size@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-6.0.0.tgz#065367fd50c239c0671cbcbad5be3e2eeb10e462"
@@ -3154,7 +3159,7 @@ loader-runner@^4.2.0:
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
   integrity sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
 
-loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.4.0:
+loader-utils@^1.0.2, loader-utils@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
   integrity sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==
@@ -4272,15 +4277,6 @@ pug-load@^3.0.0:
     object-assign "^4.1.1"
     pug-walk "^2.0.0"
 
-pug-loader@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/pug-loader/-/pug-loader-2.4.0.tgz#18eebdda045d9c31c2856f1cc3ceb8d3df7ca49a"
-  integrity sha512-cD4bU2wmkZ1EEVyu0IfKOsh1F26KPva5oglO1Doc3knx8VpBIXmFHw16k9sITYIjQMCnRv1vb4vfQgy7VdR6eg==
-  dependencies:
-    loader-utils "^1.1.0"
-    pug-walk "^1.0.0"
-    resolve "^1.1.7"
-
 pug-parser@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/pug-parser/-/pug-parser-6.0.0.tgz#a8fdc035863a95b2c1dc5ebf4ecf80b4e76a1260"
@@ -4288,13 +4284,6 @@ pug-parser@^6.0.0:
   dependencies:
     pug-error "^2.0.0"
     token-stream "1.0.0"
-
-pug-plain-loader@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/pug-plain-loader/-/pug-plain-loader-1.1.0.tgz#59f3b475284871afcd6a18d2ad3318b150fdc533"
-  integrity sha512-1nYgIJLaahRuHJHhzSPODV44aZfb00bO7kiJiMkke6Hj4SVZftuvx6shZ4BOokk50dJc2RSFqNUBOlus0dniFQ==
-  dependencies:
-    loader-utils "^1.1.0"
 
 pug-runtime@^3.0.0, pug-runtime@^3.0.1:
   version "3.0.1"
@@ -4307,11 +4296,6 @@ pug-strip-comments@^2.0.0:
   integrity sha512-zo8DsDpH7eTkPHCXFeAk1xZXJbyoTfdPlNR0bK7rpOMuhBYb0f5qUVCO1xlsitYd3w5FQTK7zpNVKb3rZoUrrQ==
   dependencies:
     pug-error "^2.0.0"
-
-pug-walk@^1.0.0:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.1.8.tgz#b408f67f27912f8c21da2f45b7230c4bd2a5ea7a"
-  integrity sha512-GMu3M5nUL3fju4/egXwZO0XLi6fW/K3T3VTgFQ14GxNi8btlxgT5qZL//JwZFm/2Fa64J/PNS8AZeys3wiMkVA==
 
 pug-walk@^2.0.0:
   version "2.0.0"

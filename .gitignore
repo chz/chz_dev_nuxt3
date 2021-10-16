@@ -1,6 +1,7 @@
 node_modules
 *.log
 .nuxt
+wrangler.toml
 nuxt.d.ts
 .output
 # Created by .ignore support plugin (hsz.mobi)

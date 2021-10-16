@@ -1,0 +1,67 @@
+@use 'icons';
+@use "responsive";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body,html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  line-height: 1.85em;
+}
+body {
+  background: var(--body-bg-color);
+  color: var(--body-color);
+  margin:0;
+  font-family: var(--font-main);
+}
+h1, h2, h3, h4 ,h5, h6 {
+  margin:0 0 0.5rem 0;
+}
+p {
+  margin:0;
+}
+#__nuxt, #__Layout {
+  height: 100%;
+}
+.Layout-Page {
+  position: absolute;
+  left:0;
+  top:0;
+  right: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+.Page {
+  position: relative;
+  margin-left: 160px;
+  padding: 50px 70px;
+  min-height: calc(100vh - 100px);
+  height: auto;
+}
+.__nuxt-error-page {
+  padding-left: 140px;
+}
+.container {
+  padding:0;
+  margin:0 -15px;
+}
+.block-title {
+  h3 {
+    display: inline-block;
+    margin: 0 0 20px;
+    padding-bottom: 3px;
+    font-family: var(--font);
+    color: var(--block-title);
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin-top: -1px;
+      background-color: var(--green);
+    }
+  }
+}

@@ -9,9 +9,10 @@
     "fibers": "^5.0.0",
     "nuxt3": "latest",
     "pug": "^3.0.2",
-    "pug-loader": "^2.4.0",
-    "pug-plain-loader": "^1.1.0",
     "sass": "^1.43.2",
     "sass-loader": "^12.2.0"
+  },
+  "dependencies": {
+    "gsap": "^3.8.0"
   }
 }
