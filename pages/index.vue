@@ -22,7 +22,7 @@ import useGsap from "../composables/useGsap"
 export default defineComponent({
   setup(){
     const state = useState('state')
-    const {gsap} = useGsap()
+    const { gsap } = useGsap()
     const VANTA = useNuxtApp().$VANTA
     let timeout = null
     onBeforeMount(()=>{
