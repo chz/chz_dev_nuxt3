@@ -2,6 +2,7 @@ node_modules
 *.log
 .nuxt
 wrangler.toml
+.vscode
 nuxt.d.ts
 .output
 # Created by .ignore support plugin (hsz.mobi)
